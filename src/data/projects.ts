@@ -173,6 +173,23 @@ import linksEstate from "@/assets/projects/links-estate.jpg";
 import linksEstate2 from "@/assets/projects/links-estate-2.jpg";
 import linksEstate3 from "@/assets/projects/links-estate-3.jpg";
 
+// The Links Development Phase
+import linksDevCover from "@/assets/projects/The-Links-Development-Phase/000100.500 Overhead View BEFORE Construction.png";
+import linksDev1 from "@/assets/projects/The-Links-Development-Phase/000100.501 Conscruction Phase The Links 2023.png";
+import linksDev2 from "@/assets/projects/The-Links-Development-Phase/783324110.260909.jpg";
+import linksDev3 from "@/assets/projects/The-Links-Development-Phase/IMG_8012.jpg";
+import linksDev4 from "@/assets/projects/The-Links-Development-Phase/IMG_8459.jpg";
+import linksDev5 from "@/assets/projects/The-Links-Development-Phase/IMG_8686.jpg";
+import linksDev6 from "@/assets/projects/The-Links-Development-Phase/IMG_8687.jpg";
+import linksDev7 from "@/assets/projects/The-Links-Development-Phase/IMG_8700.jpg";
+import linksDev8 from "@/assets/projects/The-Links-Development-Phase/IMG_8834.jpg";
+import linksDev9 from "@/assets/projects/The-Links-Development-Phase/IMG_8835.jpg";
+import linksDev10 from "@/assets/projects/The-Links-Development-Phase/IMG_8836.jpg";
+import linksDev11 from "@/assets/projects/The-Links-Development-Phase/IMG_8837.jpg";
+import linksDev12 from "@/assets/projects/The-Links-Development-Phase/IMG_8847.jpg";
+import linksDev13 from "@/assets/projects/The-Links-Development-Phase/IMG_8850.jpg";
+import linksDev14 from "@/assets/projects/The-Links-Development-Phase/IMG_9105.jpg";
+
 // N. FL Des Consult
 import nfl001 from "@/assets/projects/North-Florida-Design-Consultation/nfl-001-cover.webp";
 import nfl002 from "@/assets/projects/North-Florida-Design-Consultation/nfl-002.webp";
@@ -299,6 +316,50 @@ import miamiBeachCondo40 from "@/assets/projects/miami-beach-condo/miami-beach-c
 import miamiBeachCondo41 from "@/assets/projects/miami-beach-condo/miami-beach-condo-41.jpg";
 import miamiBeachCondo42 from "@/assets/projects/miami-beach-condo/miami-beach-condo-42.jpg";
 import miamiBeachCondo43 from "@/assets/projects/miami-beach-condo/miami-beach-condo-43.jpg";
+import miamiBeachCondo44 from "@/assets/projects/miami-beach-condo/001 COVER.jpg";
+import miamiBeachCondo45 from "@/assets/projects/miami-beach-condo/0010.JPG";
+import miamiBeachCondo46 from "@/assets/projects/miami-beach-condo/0011.JPG";
+import miamiBeachCondo47 from "@/assets/projects/miami-beach-condo/0013.JPG";
+import miamiBeachCondo48 from "@/assets/projects/miami-beach-condo/0014.JPG";
+import miamiBeachCondo49 from "@/assets/projects/miami-beach-condo/0016.JPG";
+import miamiBeachCondo50 from "@/assets/projects/miami-beach-condo/0018.JPG";
+import miamiBeachCondo51 from "@/assets/projects/miami-beach-condo/0019.JPG";
+import miamiBeachCondo52 from "@/assets/projects/miami-beach-condo/002.PNG";
+import miamiBeachCondo53 from "@/assets/projects/miami-beach-condo/0020.PNG";
+import miamiBeachCondo54 from "@/assets/projects/miami-beach-condo/0022.jpg";
+import miamiBeachCondo55 from "@/assets/projects/miami-beach-condo/0023.jpg";
+import miamiBeachCondo56 from "@/assets/projects/miami-beach-condo/0024.jpg";
+import miamiBeachCondo57 from "@/assets/projects/miami-beach-condo/0025.jpg";
+import miamiBeachCondo58 from "@/assets/projects/miami-beach-condo/0026.JPG";
+import miamiBeachCondo59 from "@/assets/projects/miami-beach-condo/0027.JPG";
+import miamiBeachCondo60 from "@/assets/projects/miami-beach-condo/0028.jpg";
+import miamiBeachCondo61 from "@/assets/projects/miami-beach-condo/0029.jpg";
+import miamiBeachCondo62 from "@/assets/projects/miami-beach-condo/003.PNG";
+import miamiBeachCondo63 from "@/assets/projects/miami-beach-condo/0030.jpg";
+import miamiBeachCondo64 from "@/assets/projects/miami-beach-condo/0031.jpg";
+import miamiBeachCondo65 from "@/assets/projects/miami-beach-condo/0032.jpg";
+import miamiBeachCondo66 from "@/assets/projects/miami-beach-condo/0033.jpg";
+import miamiBeachCondo67 from "@/assets/projects/miami-beach-condo/0034.jpg";
+import miamiBeachCondo68 from "@/assets/projects/miami-beach-condo/0035.jpg";
+import miamiBeachCondo69 from "@/assets/projects/miami-beach-condo/0036.jpg";
+import miamiBeachCondo70 from "@/assets/projects/miami-beach-condo/0037.jpg";
+import miamiBeachCondo71 from "@/assets/projects/miami-beach-condo/0038.jpg";
+import miamiBeachCondo72 from "@/assets/projects/miami-beach-condo/0039.jpg";
+import miamiBeachCondo73 from "@/assets/projects/miami-beach-condo/004.JPG";
+import miamiBeachCondo74 from "@/assets/projects/miami-beach-condo/0040.jpg";
+import miamiBeachCondo75 from "@/assets/projects/miami-beach-condo/0041.jpg";
+import miamiBeachCondo76 from "@/assets/projects/miami-beach-condo/0042.jpg";
+import miamiBeachCondo77 from "@/assets/projects/miami-beach-condo/0043.jpg";
+import miamiBeachCondo78 from "@/assets/projects/miami-beach-condo/0044.jpg";
+import miamiBeachCondo79 from "@/assets/projects/miami-beach-condo/0045.jpg";
+import miamiBeachCondo80 from "@/assets/projects/miami-beach-condo/0046.jpg";
+import miamiBeachCondo81 from "@/assets/projects/miami-beach-condo/005.JPG";
+import miamiBeachCondo82 from "@/assets/projects/miami-beach-condo/0050.5.JPG";
+import miamiBeachCondo83 from "@/assets/projects/miami-beach-condo/0051.5.JPG";
+import miamiBeachCondo84 from "@/assets/projects/miami-beach-condo/007.JPG";
+import miamiBeachCondo85 from "@/assets/projects/miami-beach-condo/008.JPG";
+import miamiBeachCondo86 from "@/assets/projects/miami-beach-condo/009.JPG";
+import miamiBeachCondo87 from "@/assets/projects/miami-beach-condo/34DAB821-8F76-43F0-9EB9-164A0EE4B881.JPG";
 
 // North Florida Estate Remodel
 import northFloridaEstateRemodelCover from "@/assets/projects/north-florida-estate-remodel/north-florida-estate-remodel-cover.jpg";
@@ -314,6 +375,19 @@ import northFloridaEstateRemodel9 from "@/assets/projects/north-florida-estate-r
 import northFloridaEstateRemodel10 from "@/assets/projects/north-florida-estate-remodel/north-florida-estate-remodel-10.jpg";
 import northFloridaEstateRemodel11 from "@/assets/projects/north-florida-estate-remodel/north-florida-estate-remodel-11.jpg";
 import northFloridaEstateRemodel12 from "@/assets/projects/north-florida-estate-remodel/north-florida-estate-remodel-12.jpg";
+import northFloridaEstateRemodel13 from "@/assets/projects/north-florida-estate-remodel/IMG_9178.jpg";
+import northFloridaEstateRemodel14 from "@/assets/projects/north-florida-estate-remodel/IMG_9179.jpg";
+import northFloridaEstateRemodel15 from "@/assets/projects/north-florida-estate-remodel/IMG_9180.jpg";
+import northFloridaEstateRemodel16 from "@/assets/projects/north-florida-estate-remodel/IMG_9182.jpg";
+import northFloridaEstateRemodel17 from "@/assets/projects/north-florida-estate-remodel/IMG_9184.jpg";
+import northFloridaEstateRemodel18 from "@/assets/projects/north-florida-estate-remodel/IMG_9185.jpg";
+import northFloridaEstateRemodel19 from "@/assets/projects/north-florida-estate-remodel/IMG_9890.jpg";
+import northFloridaEstateRemodel20 from "@/assets/projects/north-florida-estate-remodel/IMG_9892.jpg";
+import northFloridaEstateRemodel21 from "@/assets/projects/north-florida-estate-remodel/IMG_9893.jpg";
+import northFloridaEstateRemodel22 from "@/assets/projects/north-florida-estate-remodel/IMG_9894.jpg";
+import northFloridaEstateRemodel23 from "@/assets/projects/north-florida-estate-remodel/IMG_9895.jpg";
+import northFloridaEstateRemodel24 from "@/assets/projects/north-florida-estate-remodel/Screenshot 2025-10-30 001316.png";
+import northFloridaEstateRemodel25 from "@/assets/projects/north-florida-estate-remodel/Screenshot 2025-10-31 222048.png";
 
 // Civil
 import civilCover from "@/assets/projects/civil/civil-cover.jpg";
@@ -338,6 +412,28 @@ import civil18 from "@/assets/projects/civil/civil-18.jpg";
 import civil19 from "@/assets/projects/civil/civil-19.jpg";
 import civil20 from "@/assets/projects/civil/civil-20.jpg";
 import civil21 from "@/assets/projects/civil/civil-21.jpg";
+import civil22 from "@/assets/projects/civil/001 COVER.jpg";
+import civil23 from "@/assets/projects/civil/0010.jpg";
+import civil24 from "@/assets/projects/civil/0011.jpg";
+import civil25 from "@/assets/projects/civil/0012.jpg";
+import civil26 from "@/assets/projects/civil/0013.jpg";
+import civil27 from "@/assets/projects/civil/0014.jpg";
+import civil28 from "@/assets/projects/civil/0015.jpg";
+import civil29 from "@/assets/projects/civil/0016.jpg";
+import civil30 from "@/assets/projects/civil/0017.jpg";
+import civil31 from "@/assets/projects/civil/0018.jpg";
+import civil32 from "@/assets/projects/civil/0019.jpg";
+import civil33 from "@/assets/projects/civil/002.JPG";
+import civil34 from "@/assets/projects/civil/0020.jpg";
+import civil35 from "@/assets/projects/civil/0021.jpg";
+import civil36 from "@/assets/projects/civil/0022.jpg";
+import civil37 from "@/assets/projects/civil/003.JPG";
+import civil38 from "@/assets/projects/civil/004.JPG";
+import civil39 from "@/assets/projects/civil/005.JPG";
+import civil40 from "@/assets/projects/civil/006.JPG";
+import civil41 from "@/assets/projects/civil/007.JPG";
+import civil42 from "@/assets/projects/civil/008.JPG";
+import civil43 from "@/assets/projects/civil/009.JPG";
 
 // High Alpine Ranch
 import highAlpineRanchCover from "@/assets/projects/high-alpine-ranch/high-alpine-ranch-cover.jpg";
@@ -412,6 +508,17 @@ import montanaCondo7 from "@/assets/projects/montana-condo/montana-condo-7.jpg";
 import montanaCondo8 from "@/assets/projects/montana-condo/montana-condo-8.jpg";
 import montanaCondo9 from "@/assets/projects/montana-condo/montana-condo-9.jpg";
 import montanaCondo10 from "@/assets/projects/montana-condo/montana-condo-10.jpg";
+import montanaCondo11 from "@/assets/projects/montana-condo/001 COVER.jpg";
+import montanaCondo12 from "@/assets/projects/montana-condo/0010.jpg";
+import montanaCondo13 from "@/assets/projects/montana-condo/0012.jpg";
+import montanaCondo14 from "@/assets/projects/montana-condo/002.jpg";
+import montanaCondo15 from "@/assets/projects/montana-condo/003.jpg";
+import montanaCondo16 from "@/assets/projects/montana-condo/004.JPG";
+import montanaCondo17 from "@/assets/projects/montana-condo/005.jpg";
+import montanaCondo18 from "@/assets/projects/montana-condo/006.JPG";
+import montanaCondo19 from "@/assets/projects/montana-condo/007.JPG";
+import montanaCondo20 from "@/assets/projects/montana-condo/008.JPG";
+import montanaCondo21 from "@/assets/projects/montana-condo/009.jpg";
 
 // Development
 import developmentCover from "@/assets/projects/development/development-cover.png";
@@ -591,6 +698,17 @@ export const projects: Project[] = [
       montanaCondo8,
       montanaCondo9,
       montanaCondo10,
+      montanaCondo11,
+      montanaCondo12,
+      montanaCondo13,
+      montanaCondo14,
+      montanaCondo15,
+      montanaCondo16,
+      montanaCondo17,
+      montanaCondo18,
+      montanaCondo19,
+      montanaCondo20,
+      montanaCondo21,
     ],
   },
   {
@@ -743,6 +861,33 @@ export const projects: Project[] = [
     images: [linksCover, links1, links2, links3, links4, links5, links6, links7, links8],
   },
   {
+    id: "the-links-development-phase",
+    title: "The Links",
+    subtitle: "Development Phase",
+    location: "Commercial",
+    additionalInfo: "Southeast Texas",
+    category: "Commercial",
+    description: "Comprehensive development phase documentation showing the construction progress and transformation of The Links residential community. Featuring aerial overhead views before construction, detailed construction phase photography, and progress documentation showcasing the development from initial site preparation through active construction phases.",
+    image: linksDevCover,
+    images: [
+      linksDevCover,
+      linksDev1,
+      linksDev2,
+      linksDev3,
+      linksDev4,
+      linksDev5,
+      linksDev6,
+      linksDev7,
+      linksDev8,
+      linksDev9,
+      linksDev10,
+      linksDev11,
+      linksDev12,
+      linksDev13,
+      linksDev14,
+    ],
+  },
+  {
     id: "nfl-des-consult",
     title: "North Florida",
     subtitle: "",
@@ -877,6 +1022,50 @@ export const projects: Project[] = [
       miamiBeachCondo41,
       miamiBeachCondo42,
       miamiBeachCondo43,
+      miamiBeachCondo44,
+      miamiBeachCondo45,
+      miamiBeachCondo46,
+      miamiBeachCondo47,
+      miamiBeachCondo48,
+      miamiBeachCondo49,
+      miamiBeachCondo50,
+      miamiBeachCondo51,
+      miamiBeachCondo52,
+      miamiBeachCondo53,
+      miamiBeachCondo54,
+      miamiBeachCondo55,
+      miamiBeachCondo56,
+      miamiBeachCondo57,
+      miamiBeachCondo58,
+      miamiBeachCondo59,
+      miamiBeachCondo60,
+      miamiBeachCondo61,
+      miamiBeachCondo62,
+      miamiBeachCondo63,
+      miamiBeachCondo64,
+      miamiBeachCondo65,
+      miamiBeachCondo66,
+      miamiBeachCondo67,
+      miamiBeachCondo68,
+      miamiBeachCondo69,
+      miamiBeachCondo70,
+      miamiBeachCondo71,
+      miamiBeachCondo72,
+      miamiBeachCondo73,
+      miamiBeachCondo74,
+      miamiBeachCondo75,
+      miamiBeachCondo76,
+      miamiBeachCondo77,
+      miamiBeachCondo78,
+      miamiBeachCondo79,
+      miamiBeachCondo80,
+      miamiBeachCondo81,
+      miamiBeachCondo82,
+      miamiBeachCondo83,
+      miamiBeachCondo84,
+      miamiBeachCondo85,
+      miamiBeachCondo86,
+      miamiBeachCondo87,
     ],
   },
   {
@@ -902,6 +1091,19 @@ export const projects: Project[] = [
       northFloridaEstateRemodel10,
       northFloridaEstateRemodel11,
       northFloridaEstateRemodel12,
+      northFloridaEstateRemodel13,
+      northFloridaEstateRemodel14,
+      northFloridaEstateRemodel15,
+      northFloridaEstateRemodel16,
+      northFloridaEstateRemodel17,
+      northFloridaEstateRemodel18,
+      northFloridaEstateRemodel19,
+      northFloridaEstateRemodel20,
+      northFloridaEstateRemodel21,
+      northFloridaEstateRemodel22,
+      northFloridaEstateRemodel23,
+      northFloridaEstateRemodel24,
+      northFloridaEstateRemodel25,
     ],
   },
   {
@@ -936,6 +1138,28 @@ export const projects: Project[] = [
       civil19,
       civil20,
       civil21,
+      civil22,
+      civil23,
+      civil24,
+      civil25,
+      civil26,
+      civil27,
+      civil28,
+      civil29,
+      civil30,
+      civil31,
+      civil32,
+      civil33,
+      civil34,
+      civil35,
+      civil36,
+      civil37,
+      civil38,
+      civil39,
+      civil40,
+      civil41,
+      civil42,
+      civil43,
     ],
   },
   {

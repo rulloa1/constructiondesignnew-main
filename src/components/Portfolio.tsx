@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { ArrowLeft, HardHat, Hammer, Wrench } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { projects, ProjectCategory } from "@/data/projects";
@@ -18,6 +18,24 @@ export const Portfolio: React.FC<PortfolioProps> = ({
 }) => {
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
   const filteredProjects = selectedCategory === "All" ? projects : projects.filter(p => p.category === selectedCategory);
+  const projectGridRef = useRef<HTMLDivElement>(null);
+
+  // Fallback: Ensure all projects are visible after animations complete
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (projectGridRef.current) {
+        const projectLinks = projectGridRef.current.querySelectorAll('.project-link');
+        projectLinks.forEach((link) => {
+          const element = link as HTMLElement;
+          if (element.style.opacity === '0' || getComputedStyle(element).opacity === '0') {
+            element.style.opacity = '1';
+          }
+        });
+      }
+    }, 2000); // Wait 2 seconds for all animations to complete
+
+    return () => clearTimeout(timer);
+  }, [filteredProjects]);
   const getCategoryCount = (category: string) => {
     if (category === "All") return projects.length;
     return projects.filter(p => p.category === category).length;
@@ -239,9 +257,11 @@ export const Portfolio: React.FC<PortfolioProps> = ({
 
       {/* Project grid */}
       <div className="container mx-auto px-6 lg:px-12 py-12">
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
-          {filteredProjects.map((project, index) => <Link key={project.id} to={`/project/${project.id}`} className="group opacity-0 animate-fade-in-up" style={{
-          animationDelay: `${index * 50}ms`
+        <div ref={projectGridRef} className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+          {filteredProjects.map((project, index) => <Link key={project.id} to={`/project/${project.id}`} className="project-link group animate-fade-in-up" style={{
+          animationDelay: `${Math.min(index * 30, 600)}ms`,
+          opacity: 0,
+          animationFillMode: 'forwards'
         }}>
               {/* Project image */}
               <div className="aspect-[4/5] overflow-hidden bg-muted rounded-sm mb-4 relative">
