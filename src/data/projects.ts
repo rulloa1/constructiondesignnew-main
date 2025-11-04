@@ -475,7 +475,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "syracuse-house",
-    title: "Syracuse House",
+    title: "Syracuse",
     subtitle: "",
     location: "Residential",
     additionalInfo: "Syracuse, UT",
@@ -533,7 +533,7 @@ export const projects: Project[] = [
   },
   {
     id: "north-utah-custom",
-    title: "North Utah Custom",
+    title: "North Utah",
     subtitle: "",
     location: "Residential",
     additionalInfo: "North Utah",
@@ -595,7 +595,7 @@ export const projects: Project[] = [
   },
   {
     id: "development",
-    title: "The Links Development",
+    title: "The Links",
     subtitle: "",
     location: "Commercial",
     additionalInfo: "Southeast Texas",
@@ -645,7 +645,7 @@ export const projects: Project[] = [
   },
   {
     id: "carmel-house-1",
-    title: "Carmel House",
+    title: "Carmel",
     subtitle: "#1",
     location: "Residential",
     additionalInfo: "Carmel, CA",
@@ -656,7 +656,7 @@ export const projects: Project[] = [
   },
   {
     id: "carmel-house-2",
-    title: "Carmel House",
+    title: "Carmel",
     subtitle: "#2",
     location: "Residential",
     additionalInfo: "Carmel, CA",
@@ -667,7 +667,7 @@ export const projects: Project[] = [
   },
   {
     id: "commercial-finish-lds-churches",
-    title: "LDS Churches",
+    title: "LDS",
     subtitle: "",
     location: "Commercial",
     additionalInfo: "Central California",
@@ -678,8 +678,8 @@ export const projects: Project[] = [
   },
   {
     id: "hillside-cleanup",
-    title: "Hillside Cleanup",
-    subtitle: "",
+    title: "Hillside",
+itle: "Cleanup",
     location: "Commercial",
     additionalInfo: "Monterey Peninsula, CA",
     category: "Commercial",
@@ -777,8 +777,8 @@ export const projects: Project[] = [
   },
   {
     id: "coastal-hillside-restoration-2",
-    title: "Hillside Restoration",
-    subtitle: "",
+    title: "Hillside",
+: "Restoration",
     location: "Residential",
     additionalInfo: "Monterey Peninsula, CA",
     category: "Residential",
@@ -788,7 +788,7 @@ export const projects: Project[] = [
   },
   {
     id: "bahamas-beachfront-estate",
-    title: "Beachfront Estate",
+    title: "Bahamas",
     subtitle: "",
     location: "Residential",
     additionalInfo: "Bahamas",
@@ -802,7 +802,7 @@ export const projects: Project[] = [
   },
   {
     id: "pool-estate",
-    title: "Pool Estate",
+    title: "Pool",
     subtitle: "",
     location: "Residential",
     additionalInfo: "Luxury Resort",
@@ -825,7 +825,7 @@ export const projects: Project[] = [
   },
   {
     id: "miami-beach-condo",
-    title: "Miami Beach Condo",
+    title: "Miami Beach",
     subtitle: "",
     location: "Residential",
     additionalInfo: "Miami Beach, FL",
@@ -881,8 +881,8 @@ export const projects: Project[] = [
   },
   {
     id: "north-florida-estate-remodel",
-    title: "North Florida Estate",
-    subtitle: "",
+    title: "North Florida",
+title: "Estate",
     location: "Residential",
     additionalInfo: "North Florida",
     category: "Residential",
@@ -940,7 +940,7 @@ export const projects: Project[] = [
   },
   {
     id: "high-alpine-ranch",
-    title: "High Alpine Ranch",
+    title: "Alpine Ranch",
     subtitle: "",
     location: "Residential",
     additionalInfo: "Montana",
