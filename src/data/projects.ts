@@ -355,21 +355,21 @@ import highAlpineRanch11 from "@/assets/projects/high-alpine-ranch/high-alpine-r
 
 // Vero Beach Design Build
 import veroBeachCover from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-cover.jpeg";
-import veroBeach1 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-1.jpeg";
-import veroBeach2 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-2.jpeg";
-import veroBeach3 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-3.jpeg";
-import veroBeach4 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-4.jpeg";
-import veroBeach5 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-5.jpeg";
-import veroBeach6 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-6.jpeg";
-import veroBeach7 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-7.jpeg";
-import veroBeach8 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-8.jpeg";
-import veroBeach9 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-9.jpeg";
-import veroBeach10 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-10.jpeg";
-import veroBeach11 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-11.jpeg";
-import veroBeach12 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-12.jpeg";
-import veroBeach13 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-13.jpeg";
-import veroBeach14 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-14.jpeg";
-import veroBeach15 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-15.jpeg";
+import veroBeach1 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-1.jpg";
+import veroBeach2 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-2.jpg";
+import veroBeach3 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-3.jpg";
+import veroBeach4 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-4.jpg";
+import veroBeach5 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-5.jpg";
+import veroBeach6 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-6.jpg";
+import veroBeach7 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-7.webp";
+import veroBeach8 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-8.png";
+import veroBeach9 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-9.png";
+import veroBeach10 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-10.jpg";
+import veroBeach11 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-11.jpg";
+import veroBeach12 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-12.jpg";
+import veroBeach13 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-13.jpg";
+import veroBeach14 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-14.jpg";
+import veroBeach15 from "@/assets/projects/vero-beach-design-build/vero-beach-design-build-15.jpg";
 
 // North Utah Custom
 import northUtahCover from "@/assets/projects/north-utah-custom/north-utah-custom-cover.png";
@@ -679,7 +679,7 @@ export const projects: Project[] = [
   {
     id: "hillside-cleanup",
     title: "Hillside",
-itle: "Cleanup",
+    subtitle: "Cleanup",
     location: "Commercial",
     additionalInfo: "Monterey Peninsula, CA",
     category: "Commercial",
@@ -778,7 +778,7 @@ itle: "Cleanup",
   {
     id: "coastal-hillside-restoration-2",
     title: "Hillside",
-: "Restoration",
+    subtitle: "Restoration",
     location: "Residential",
     additionalInfo: "Monterey Peninsula, CA",
     category: "Residential",
@@ -882,7 +882,7 @@ itle: "Cleanup",
   {
     id: "north-florida-estate-remodel",
     title: "North Florida",
-title: "Estate",
+    subtitle: "Estate",
     location: "Residential",
     additionalInfo: "North Florida",
     category: "Residential",
