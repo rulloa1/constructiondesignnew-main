@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  ci:
+    name: Lint, Build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
+
+      - name: Lint
+        run: |
+          if [ "$(npm pkg get scripts.lint 2>/dev/null)" != '{}' ]; then
+            npm run lint
+          else
+            echo "No 'lint' script found in package.json - skipping."
+          fi
+
+      - name: Build
+        run: |
+          if [ "$(npm pkg get scripts.build 2>/dev/null)" != '{}' ]; then
+            npm run build
+          else
+            echo "No 'build' script found in package.json - skipping."
+          fi
