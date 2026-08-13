@@ -17,8 +17,13 @@ interface Lead {
   budget_range: string | null;
   message: string | null;
   status: string | null;
-  conversation_history: any;
+  conversation_history: ConversationMessage[] | null;
   created_at: string;
+}
+
+interface ConversationMessage {
+  role: string;
+  content: string;
 }
 
 export default function Admin() {
@@ -151,7 +156,7 @@ export default function Admin() {
                           <strong className="text-sm">Conversation History:</strong>
                           <ScrollArea className="h-48 mt-2 rounded border p-3">
                             <div className="space-y-2">
-                              {lead.conversation_history.map((msg: any, idx: number) => (
+                              {lead.conversation_history.map((msg: ConversationMessage, idx: number) => (
                                 <div key={idx} className="text-sm">
                                   <strong className={msg.role === "user" ? "text-blue-600" : "text-green-600"}>
                                     {msg.role}:

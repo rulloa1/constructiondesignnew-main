@@ -37,7 +37,6 @@ export const MusicPlayer: React.FC = () => {
 
     if (isPlaying) {
       audioRef.current.pause();
-      audioRef.current.currentTime = audioRef.current.currentTime; // Smooth fade would go here
     } else {
       audioRef.current.play();
     }

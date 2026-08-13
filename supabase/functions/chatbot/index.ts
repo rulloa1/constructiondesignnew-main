@@ -16,6 +16,7 @@ const LeadSchema = z.object({
   budget_range: z.enum(['Under $50k', '$50k-$100k', '$100k-$250k', '$250k+', 'Undecided']).optional().nullable(),
   message: z.string().trim().max(5000, "Message too long").optional().nullable()
 });
+type LeadData = z.infer<typeof LeadSchema> & { id?: string };
 
 // Limit conversation history to last 50 messages to prevent unbounded growth
 const MAX_CONVERSATION_MESSAGES = 50;
@@ -232,7 +233,7 @@ Only include the LEAD_DATA when you have at least name and email.`;
     const assistantMessage = data.choices[0].message.content;
 
     // Check if lead data is present
-    let leadData: any = null;
+    let leadData: LeadData | null = null;
     let cleanMessage = assistantMessage;
     
     if (assistantMessage.includes("LEAD_DATA:")) {

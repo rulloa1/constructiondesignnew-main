@@ -4,7 +4,7 @@
  * @param fn Function to throttle
  * @returns Throttled function
  */
-export const rafThrottle = <T extends any[]>(fn: (...args: T) => void) => {
+export const rafThrottle = <T extends unknown[]>(fn: (...args: T) => void) => {
   let ticking = false;
   return (...args: T) => {
     if (ticking) return;
@@ -22,7 +22,7 @@ export const rafThrottle = <T extends any[]>(fn: (...args: T) => void) => {
  * @param ms Delay in milliseconds
  * @returns Debounced function
  */
-export const debounce = <T extends any[]>(
+export const debounce = <T extends unknown[]>(
   fn: (...args: T) => void,
   ms: number
 ) => {
